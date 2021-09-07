@@ -12,7 +12,7 @@ const devConfig = {
         filename: 'client-bundle.js'
     },
     devServer: {
-        contentBase: resolve(__dirname, '../dist'), // 原contentBase
+        static: resolve(__dirname, '../dist'), //! 原contentBase
         port: 8888,
         historyApiFallback: true
     },
